@@ -158,7 +158,7 @@ def get_attack_data(model_name, attack_id, step_size, passivity):
     new_attack_label_various = None
 
     if model_name == '1dcnn':
-        dataset_attack = load_variable('swat_dataset_attack_v0_various_label')
+	dataset_attack = pd.read_excel('./dataset/swat/swat_attack.xlsx', header=0, index_col=0)
 
         values_attack = dataset_attack.drop('label', axis=1).values
         label_attack = np.asarray(dataset_attack['label'])
