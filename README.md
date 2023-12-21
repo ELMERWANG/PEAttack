@@ -23,7 +23,7 @@ As the SWaT dataset is not publicly available, please request the SWaT dataset f
     # For testing the max and min perturbation: gdn_action_scale.py
 ```
 ## For rest of the model:
-* 1. For model train, test, max-min perturbation test, stealthy attack, and feature permutation, please refer to model_evalute_1dcnn.py for 1dCNN model, and model_evaluate_lstm_knn_rfr_lr.py for LSTM, KNN, RFR, and LR models.
+1. For model train, test, max-min perturbation test, stealthy attack, and feature permutation, please refer to model_evalute_1dcnn.py for 1dCNN model, and model_evaluate_lstm_knn_rfr_lr.py for LSTM, KNN, RFR, and LR models.
 ```
 Execution syntax (same syntax for model_evaluate_lstm_knn_rfr_lr.py as well):
 model_evalute_1dcnn.py model_name model_mode evaluate_mode attack_type
@@ -33,7 +33,7 @@ Example:
 * obtain the permutation result on knn model: model_evaluate_lstm_knn_rfr_lr.py knn permutation any
 
 ```
-* 2. For evasion attack, please refer to ppo_1dcnn.py for 1dCNN model, and ppo_lstm_knn_rfr_lr.py for LSTM, KNN, RFR, and LR models.
+2. For evasion attack, please refer to ppo_1dcnn.py for 1dCNN model, and ppo_lstm_knn_rfr_lr.py for LSTM, KNN, RFR, and LR models.
 ```
 Execution syntax (same syntax for model_evaluate_lstm_knn_rfr_lr.py as well):
 ppo_1dcnn.py model_name attack_id false feature_portion_numerator feature_portion_denominator
