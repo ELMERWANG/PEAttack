@@ -6,10 +6,10 @@ Code implementation for paper submited to DSN2024.
 As the SWaT dataset is not publicly available, please request the SWaT dataset from iTrust lab at https://itrust.sutd.edu.sg/itrust-labs_datasets/dataset_info/
 
 # Preparation:
-* 1. After obtaining the dataset, please use the given attack list in SWaT folder to manually mark the attack dataset's label column to the corresponding attack ID, e.g., A1, A2...A41 etc. Keep the non-attack data label as it is, e.g., 0.
-* 2. Dataset preprocessing and training of GDN model, please refer to https://github.com/d-ailin/GDN
-* 3. Dataset preprocessing and training of 1dCNN, LSTM, KNN, RFR, and LR, please refer to 'model_evaluate_1dcnn.py' and 'model_evaluate_lstm_knn_rfr_lr.py'
-* 4. Please refer to the respective environment file for the models.
+* After obtaining the dataset, please use the given attack list in SWaT folder to manually mark the attack dataset's label column to the corresponding attack ID, e.g., A1, A2...A41 etc. Keep the non-attack data label as it is, e.g., 0.
+* Dataset preprocessing and training of GDN model, please refer to https://github.com/d-ailin/GDN
+* Dataset preprocessing and training of 1dCNN, LSTM, KNN, RFR, and LR, please refer to 'model_evaluate_1dcnn.py' and 'model_evaluate_lstm_knn_rfr_lr.py'
+* Please refer to the respective environment file for the models.
 
 # Execution:
 ## For GDN model:
