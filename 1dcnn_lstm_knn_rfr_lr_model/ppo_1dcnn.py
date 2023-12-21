@@ -40,7 +40,7 @@ class CustomEnvironment(py_environment.PyEnvironment):
         self.best_action_sequence = []
         self.current_state = np.zeros((self.step_size, self.total_num_of_feature), dtype=np.float32)
         self.first_step_score = 0
-        self.overall_counter = 960 # start from -1, so that after inc at the first step, it is 0
+        self.overall_counter = -1 # start from -1, so that after inc at the first step, it is 0
         self.attack_data_all = np.zeros((1,self.total_num_of_feature), dtype=np.float32)
         self.attack_data_all_original = np.zeros((1,self.total_num_of_feature), dtype=np.float32)
         self.data_before_augmenting_ori = np.zeros((1,self.total_num_of_feature), dtype=np.float32)
