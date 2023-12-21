@@ -30,7 +30,7 @@ model_evalute_1dcnn.py model_name model_mode evaluate_mode attack_type
 Example:
 * test the performance of 1dcnn model: model_evalute_1dcnn.py 1dcnn test any any
 * test the delayed stealthy attack on rfr model: model_evaluate_lstm_knn_rfr_lr.py rfr stealthy delayed
-* obtain the permutation result on knn model: model_evaluate_lstm_knn_rfr_lr.py knn permutation any
+* test the permutation result on knn model: model_evaluate_lstm_knn_rfr_lr.py knn permutation any
 
 ```
 2. For evasion attack, please refer to ppo_1dcnn.py for 1dCNN model, and ppo_lstm_knn_rfr_lr.py for LSTM, KNN, RFR, and LR models.
