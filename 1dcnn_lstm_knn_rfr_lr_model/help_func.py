@@ -172,7 +172,7 @@ def get_attack_data(model_name, attack_id, step_size, passivity):
         test_dataset = scaler.transform(values_attack)
 
     elif model_name in ['lstm', 'knn', 'rfr', 'lr']:
-        dataset_attack = pd.read_csv('./dataset/swat/test_all_label.csv', sep=',', index_col=0)
+        dataset_attack = pd.read_csv('./dataset/swat/test.csv', sep=',', index_col=0)
 
         test_labels_list_various = dataset_attack['attack'].tolist()
         label_attack_0_1 = [1 if isinstance(x, str) and x.startswith('A') else 0 for x in test_labels_list_various] # convert to 1s and 0s only
