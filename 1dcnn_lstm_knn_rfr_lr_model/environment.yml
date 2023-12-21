@@ -1,0 +1,4 @@
+name: myenv
+channels:
+  - defaults
+prefix: C:\Users\s4564656\AppData\Local\miniconda3\envs\myenv
