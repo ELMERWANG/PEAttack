@@ -25,7 +25,7 @@ As the SWaT dataset is not publicly available, please request the SWaT dataset f
 ## For rest of the model:
 1. For model train, test, max-min perturbation test, stealthy attack, and feature permutation, please refer to model_evalute_1dcnn.py for 1dCNN model, and model_evaluate_lstm_knn_rfr_lr.py for LSTM, KNN, RFR, and LR models.
 ```
-Execution syntax (same syntax for model_evaluate_lstm_knn_rfr_lr.py as well):
+Execution syntax (same syntax for model_evaluate_lstm_knn_rfr_lr.py):
 model_evalute_1dcnn.py model_name model_mode evaluate_mode attack_type
 Example:
 * test the performance of 1dcnn model: model_evalute_1dcnn.py 1dcnn test any any
