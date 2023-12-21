@@ -35,8 +35,9 @@ Example:
 ```
 2. For evasion attack, please refer to ppo_1dcnn.py for 1dCNN model, and ppo_lstm_knn_rfr_lr.py for LSTM, KNN, RFR, and LR models.
 ```
-Execution syntax (same syntax for model_evaluate_lstm_knn_rfr_lr.py as well):
+Execution syntax (same syntax for ppo_lstm_knn_rfr_lr.py):
 ppo_1dcnn.py model_name attack_id false feature_portion_numerator feature_portion_denominator
 Example:
 ppo_1dcnn.py lstm A38 false 3 3
+ppo_lstm_knn_rfr_lr.py knn A28 false 3 3
 ```
