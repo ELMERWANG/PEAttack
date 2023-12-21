@@ -36,7 +36,7 @@ window_num_check = 2
 window_size = 2000
 target_feature = 'LIT301'
 
-dataset_normal = pd.read_excel('./dataset/swat/swat_normal.xlsx', header=0, index_col=0) # swat_normal_v0_16000_trimmed_w_label
+dataset_normal = pd.read_excel('./dataset/swat/swat_normal.xlsx', header=0, index_col=0)
 dataset_attack = pd.read_excel('./dataset/swat/swat_attack.xlsx', header=0, index_col=0)
 
 target_feature_index = dataset_attack.columns.get_loc(target_feature)
