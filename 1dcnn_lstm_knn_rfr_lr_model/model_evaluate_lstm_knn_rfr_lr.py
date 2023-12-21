@@ -75,7 +75,7 @@ else:
 train_test_ratio = 0.8
 
 dataset_normal = pd.read_csv('./dataset/swat/train.csv', sep=',', index_col=0)
-dataset_attack = pd.read_csv('./dataset/swat/test_all_label.csv', sep=',', index_col=0)
+dataset_attack = pd.read_csv('./dataset/swat/test.csv', sep=',', index_col=0)
 
 target_feature_index = dataset_attack.columns.get_loc(target_feature)
 
