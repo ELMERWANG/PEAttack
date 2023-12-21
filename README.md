@@ -2,7 +2,7 @@
 
 Code implementation for paper submited to DSN2024.
 
-DOI: https://doi.org/10.5281/zenodo.10417929
+DOI: https://doi.org/10.5281/zenodo.10417987
 
 # Dataset:
 As the SWaT dataset is not publicly available, please request the SWaT dataset from iTrust lab at https://itrust.sutd.edu.sg/itrust-labs_datasets/dataset_info/
