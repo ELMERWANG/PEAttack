@@ -11,7 +11,7 @@ As the SWaT dataset is not publicly available, please request the SWaT dataset f
 * Dataset preprocessing and training of 1dCNN, LSTM, KNN, RFR, and LR, please refer to 'model_evaluate_1dcnn.py' and 'model_evaluate_lstm_knn_rfr_lr.py'
 * Please refer to the respective environment file for the models.
 
-# Execution:
+# Execution (after obtained the pretrained models):
 ## For GDN model:
 ```
     # Replace the python file name in the run.sh with the target file name listed below, and add pretrained model path to load_model_path in the run.sh.
