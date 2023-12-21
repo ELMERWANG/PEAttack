@@ -19,7 +19,7 @@ EPOCH=50
 report='val'
 
 if [[ "$gpu_n" == "cpu" ]]; then
-    python gdn_action_scale.py \
+    python main_program_to_run.py \
         -dataset $DATASET \
         -save_path_pattern $path_pattern \
         -slide_stride $SLIDE_STRIDE \
@@ -37,7 +37,7 @@ if [[ "$gpu_n" == "cpu" ]]; then
         -report $report \
         -topk $topk \
         -device 'cpu' \
-        -load_model_path '/home/shunyao/GDN-main/pretrained/swat/val_best_3.pt'
+        -load_model_path 'path_to_your_folder/pretrained/swat/replace_with_your_pretrained_model.pt'
 
 else
     CUDA_VISIBLE_DEVICES=$gpu_n  python none.py \
@@ -57,5 +57,5 @@ else
         -val_ratio $val_ratio \
         -report $report \
         -topk $topk \
-        -load_model_path '/home/shunyao/GDN-main/pretrained/swat/val_best_3.pt'
+        -load_model_path 'path_to_your_folder/pretrained/swat/replace_with_your_pretrained_model.pt'
 fi
